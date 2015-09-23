@@ -1,0 +1,380 @@
+body {
+background: #4C565E; color: #B7BFC7;
+padding: 0; margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+a {
+color: #F6B33D;
+text-decoration: none;
+}
+a:visited {
+color: #F6B33D;
+text-decoration: none;
+}
+a:hover {
+color: #F6B33D;
+text-decoration: underline;
+}
+a:active {
+color: #F6B33D;
+text-decoration: none;
+}
+h4 {
+margin: 0;
+padding:5px 0px 0px 0px;
+}
+#container {
+padding: 0;
+margin: 0 0 0 10%;
+width: 80%;
+text-align: center;
+}
+.titleBlock {
+float: left;
+margin:10px 0px 10px 0px;
+padding: 0px 10px 0px 0px;
+}
+.blogTitle {
+color: #fff; text-align: left;
+margin: 0px;
+}
+.blogTitle a {
+color: #fff;
+text-decoration: none;
+}
+.blogTitle a:visited {
+color: #fff;
+text-decoration: none;
+}
+.blogTitle a:hover {
+color: #fff;
+text-decoration: underline;
+}
+.blogTitle a:active {
+color: #fff;
+text-decoration: none;
+}
+.blogTitle h2 {
+margin: 0px;
+}
+.blogTagline {
+color: #F6B33D;
+text-align: left;
+}
+.menuBlock {
+float: right;
+color: #F6B33D;
+text-align: left;
+margin:0;
+padding:0;
+}
+.menuBlock ul {
+list-style: none;
+}
+.afterDiv {
+clear: both;
+}
+.centerContent {
+text-align: left;
+border-left: 10px solid #000;
+border-right: 10px solid #000;
+border-bottom: 10px solid #000;
+margin: 0px 0px 20px 0px;
+padding: 10px 5px 10px 5px;
+background: #23272B;
+overflow:hidden;
+}
+.centerInternalTitle, .centerTitle {
+text-transform: lowercase;
+font-family: Arial, helvetica, sans-serif;
+color: #F6B33D;
+background: #000;
+margin: 0px;
+padding: 2px 2px 2px 10px;
+letter-spacing:5px;
+text-align: left;
+font-weight: bold;
+}
+.centerInternalTitle {
+position: relative;
+margin: -10px -5px 5px -5px;
+}
+#leftBlock {
+float: left;
+}
+#rightBlock {
+float: right;
+}
+.leftBlock {
+position:absolute;
+left:10%;
+top:auto;
+width:39%;
+height:auto;
+margin:0;
+padding: 0;
+}
+.leftBlock ul {
+list-style: none;
+padding: 0px 0px 0px 15px;
+margin: 5px 0 5px 0;
+}
+.rightBlock {
+position:absolute;
+left:51%;
+top:auto;
+width:39%;
+height:auto;
+margin:0;
+padding: 0;
+}
+.rightBlock ul {
+list-style: none;
+padding: 0px 0px 0px 15px;
+margin: 5px 0px 5px 0px;
+}
+
+.leftside {
+text-align: left;
+}
+
+.search {
+padding: 0px 0px 0px 10px;
+}
+.centerContent .search input, .centerContent input.checkbox {
+width: auto;
+margin: .5ex;
+}
+
+/* styles for comment and profile forms */
+form {
+margin: 0;
+padding: 0;
+}
+form.inline {
+margin: 0px;
+padding: 0px;
+display: inline;
+}
+fieldset.input {
+margin: 0;
+padding: 0;
+border: 0;
+}
+fieldset span.notes {
+font-size: 80%;
+color: #999;
+}
+input.large, textarea.large {
+width: 97%;
+margin-left: 0;
+margin-right: 0;
+}
+label.radiooption {
+margin-right: 1em;
+}
+/* 24/75% forms - Fast Forms */
+form.fform fieldset {
+border: 1px solid #ddd;
+margin-bottom: 1ex;
+background-color: #fff;
+padding: .5ex 1ex;
+}
+form.fform fieldset fieldset {
+border: none;
+margin: 1ex;
+padding: 0;
+}
+form.fform div.label {
+float: left;
+width: 24%;
+text-align: right;
+font-weight: bold;
+margin: 0;
+padding-top: .5ex;
+}
+form.fform div.input {
+margin: 0 0 0 25%;
+}
+form.fform fieldset.input {
+margin: 0;
+}
+form.fform div.info {
+margin: 0 0 0 25%;
+padding-top: .5ex;
+}
+/* 18/80% forms: comments and profile */
+form.bComment fieldset {	/* one form line */
+border: none;
+margin: 2ex 0ex;
+padding: 0ex;
+}
+form.bComment fieldset label {
+font-weight: bold;
+}
+form.bComment fieldset div.label { /* label of form line */
+float: left;
+width: 18%;
+text-align: right;
+padding-top: .5ex;
+font-weight: bold;
+}
+form.bComment fieldset div.input { /* input zone of form line */
+margin: 0 0 0 20%;
+}
+form.bComment fieldset.input {
+margin: 0;
+}
+form.bComment fieldset div.info { /* info zone of form line */
+margin: 0 0 0 20%;
+padding-top: .5ex;
+}
+
+.centerContent textarea, .centerContent select, input.bComment, textarea.bComment, select.bComment {
+background-color: #FFFFFF;
+border: 1px solid #23272B;
+padding: .5ex;
+width: 98%;
+margin: 0ex;
+}
+
+/* styles from blog_elements */
+div.codeblock {
+background-color: #eee;
+border: 1px dotted #aaa;
+margin: 1ex;
+padding: 1ex;
+width: 90%;
+overflow: auto;
+}
+div.codeblock pre {
+margin: 0;
+}
+
+/* styles for images */
+img {
+border: none;
+}
+img.top {
+vertical-align: top;
+border: 0px;
+}
+img.flag {
+vertical-align: middle;
+border: 1px solid #000;
+}
+img.middle {
+vertical-align: middle;
+border: 0px;
+}
+img.leftmargin {
+float: left;
+border: 0px;
+margin-right: 1ex;
+margin-top: .2ex;
+margin-bottom: .2ex;
+}
+img.rightmargin {
+float: right;
+border: 0px;
+margin-left: 1ex;
+margin-top: .2ex;
+margin-bottom: .2ex;
+}
+a.permalink_right {
+background-color: transparent;
+float: right;
+border: 0;
+}
+
+/* GENERIC styles for the archive calendar */
+caption.bCalendarCaption {
+font-size: 105%;
+font-weight: bold;
+margin: auto;
+padding: .5ex 0;
+white-space: nowrap;
+}
+table.bCalendarTable {
+margin: 0 auto 1em auto;
+font-size: 77%;
+border-collapse: separate; 
+border-spacing: 0px;	
+}
+tr.bCalendarRow {
+text-align: center;
+}
+th.bCalendarHeaderCell {
+font-size: 84%;
+width: 4ex;
+}
+td.bCalendarCell {
+width: 4ex;
+height: 3.5ex;
+}
+.bCalendarLinkPost {
+font-weight: bold;
+}
+td#prev, td#next {
+font-weight: bold;
+font-size: 105%;
+padding: .5ex;
+white-space: nowrap;
+}
+td#prev a, td#next a {
+padding: 0 .5ex;
+}
+td#prev {
+text-align: left;
+}
+td#next {
+text-align: right;
+}
+
+/* styles for popup comments if used */
+#contentcomments {
+margin: 0 0 50px 10px;
+padding: 10px;
+}
+#contentcomments input {
+margin: 1px;
+padding: 1px 1px 4px 1px;
+border: 1px solid #ccc;
+font: 11px/14px verdana, arial, helvetica, sans-serif;
+}
+#contentcomments textarea {
+margin: 1px;
+padding: 1px;
+border: 1px solid #ccc;
+font: 11px/14px verdana, arial, helvetica, sans-serif;
+}
+.bCommentText {
+  margin-bottom: 10px;
+}
+
+.sitewide_header {
+	margin-bottom: 0px !important;
+	z-index: 1000;
+	position: relative;
+}
+#skin_wrapper {
+	z-index: -1;
+}
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #222;
+	background-color: #fff;
+	border-radius: 0px !important;
+	border:1px solid #fff !important;
+	cursor: pointer;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #fff;
+	color: #222;
+}
+blockquote p {
+	color: #222;
+}
